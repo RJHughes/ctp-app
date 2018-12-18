@@ -1,5 +1,5 @@
 from binance.client import Client
-from exchanges.binance.binance import Binance
+from ctp.exchanges.binance.binance import Binance
 import pandas as pd
 
 

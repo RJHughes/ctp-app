@@ -2,7 +2,7 @@ from math import ceil
 from plistlib import Dict
 import psycopg2
 
-from utilities import *
+from ctp.utilities import *
 import time
 
 
@@ -56,6 +56,3 @@ class Exchange(object):
         cur.close()
         # Returns the id of the last row in  the database
         return cur.lastrowid
-
-
-

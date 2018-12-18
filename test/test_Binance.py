@@ -42,3 +42,6 @@ class TestBinanceMethods(unittest.TestCase):
         order = self.binance_live.create_test_buy_order(1,"BCH","BTC")
         # Dummy order should return an empty json
         self.assertEqual(order,{})
+
+if __name__ == '__main__':
+    unittest.main()
